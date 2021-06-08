@@ -8,12 +8,13 @@ import util.PojoUtils;
 import java.math.*;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TabuSearch {
 
     private int epoch; //TS迭代次数
     private List<Job> jobsSolution;  //Jobs每次迭代的解
-    private Map<Job,Map<TimeWindow,Integer>> tabuMaps = new HashMap<Job, Map<TimeWindow,Integer>>();  //每个job都有自己的禁忌表
+    private Map<Job,Map<TimeWindow,Integer>> tabuMaps = new ConcurrentHashMap<Job, Map<TimeWindow, Integer>>();  //每个job都有自己的禁忌表
     private Map<Integer,Job> jobsMap = new HashMap<Integer, Job>();  //通过索引来获取job
     private Map<List<Job>,Integer> jobsCandidateSolution = new HashMap<List<Job>,Integer>();  //用来记录每一轮候选集中解的情况
     private List<Job> optimalSolution = new ArrayList<Job>(); //保存当前最优解
@@ -41,7 +42,7 @@ public class TabuSearch {
     /**Step2: 初始化禁忌表*/
     public void initialTabuMap(List<Job> jobs){
         for (Job job : jobs) {
-            tabuMaps.put(job,new HashMap<TimeWindow, Integer>());
+            tabuMaps.put(job,new ConcurrentHashMap<TimeWindow, Integer>());
         }
     }
 
@@ -73,7 +74,8 @@ public class TabuSearch {
             try {
 
                 /**该方法修改了jobs的start_random，end_random，isUsed属性，satellites的jobs,startT,endT属性*/
-                satellites = PojoGenerator.SatellitesGeneratorWithJson(satellite_json); //在每次迭代中，对于每一个任务序列，需要重新使用时间窗口
+                //在每次寻找可用窗口时，对于每一个任务序列，需要重新初始化时间窗口
+                satellites = PojoGenerator.SatellitesGeneratorWithJson(satellite_json);
                 List<Job> temp = Solution.getJobsSolution(jobList, satellites, tabuMaps,false);
 
                 //如果满足破禁规则，则更新禁忌表（禁忌对象为某任务不使用的时间窗口）
@@ -82,6 +84,8 @@ public class TabuSearch {
                     optimalSolution = temp;
 
                     //为每个job更新禁忌表
+                    //在每次寻找可用窗口时，对于每一个任务序列，需要重新初始化时间窗口
+                    satellites = PojoGenerator.SatellitesGeneratorWithJson(satellite_json);
                     updateTabuMap(temp,satellites);
 
                     //将当前的最优解作为下一次迭代的初始解
@@ -103,7 +107,19 @@ public class TabuSearch {
         for (List<Job> jobList : jobsCandidates){
 
             try {
+
+//                System.out.println("开始使用禁忌表");
+//                Set<Job> jobs1 = tabuMaps.keySet();
+//                for (Job job : jobs1){
+//                    System.out.println("key = " + job.getJob_Id() + " val = " + tabuMaps.get(job));
+//                }
+//                System.out.println("--------------------------");
+
+                //在每次寻找可用窗口时，对于每一个任务序列，需要重新初始化时间窗口
+                satellites = PojoGenerator.SatellitesGeneratorWithJson(satellite_json);
                 List<Job> temp  = Solution.getJobsSolution(jobList, satellites, tabuMaps, true);
+
+//                System.out.println("------------------------------");
 
                 //保存满足禁忌要求的最优解
                 if(temp.size() > MAX_CompletedNum){
@@ -141,10 +157,12 @@ public class TabuSearch {
             //timeWindows中除了tw，其他窗口对象都写入到job的禁忌表中
             for (TimeWindow t:timeWindows) {
 
+//                System.out.println("更新tabuMap");
                 //根据(7-优先级)作为禁忌长度，优先级越高，禁忌长度越短
                 if(t != tw){
                     Map<TimeWindow, Integer> map = tabuMaps.get(job);
                     map.put(t,(int)Math.floor((float)(7-job.getPriority())*1.5));
+                    tabuMaps.put(job,map);
                 }
             }
         }
@@ -174,6 +192,8 @@ public class TabuSearch {
 
     /**每经过一次迭代，禁忌表中的禁忌对象对应的禁忌长度都会递减1*/
     public void tabuMapAutoDecrease(){
+
+//        System.out.println("递减tabuMap----");
         Set<Job> jobs = tabuMaps.keySet();
 
         for (Job job : jobs){

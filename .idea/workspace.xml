@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="659254c8-8b49-4baf-b29d-40b560fdf46e" name="Default" comment="" />
+    <list default="true" id="659254c8-8b49-4baf-b29d-40b560fdf46e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java" afterPath="$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res1.json" afterPath="$PROJECT_DIR$/src/main/resources/res1.json" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="378" column="40" lean-forward="true" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
+            <state relative-caret-position="444">
+              <caret line="398" column="45" lean-forward="false" selection-start-line="398" selection-start-column="45" selection-end-line="398" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#407#430#0" expanded="true" />
+                <element signature="e#643#666#0" expanded="true" />
+                <element signature="e#744#761#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#2397#2409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,8 +59,8 @@
       <file leaf-file-name="TabuSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TabuSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="29">
+              <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,19 +115,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabuSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TabuSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="195" column="46" lean-forward="true" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#382#0" expanded="true" />
-                <element signature="e#453#467#0" expanded="true" />
-                <element signature="e#555#574#0" expanded="true" />
-                <element signature="e#1802#1813#0" expanded="true" />
-                <element signature="e#3342#3361#0" expanded="true" />
+                <element signature="e#409#440#0" expanded="true" />
+                <element signature="e#1870#1881#0" expanded="true" />
+                <element signature="e#3578#3597#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/programmingSoftware/Java/Jdk/jdk1.8/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="1468" column="0" lean-forward="false" selection-start-line="1468" selection-start-column="0" selection-end-line="1468" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,16 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SolutionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4872">
-              <caret line="179" column="9" lean-forward="false" selection-start-line="164" selection-start-column="8" selection-end-line="179" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -173,6 +181,9 @@
       <replace>Job</replace>
       <replace>Initialization</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -225,8 +236,8 @@
         <option value="$PROJECT_DIR$/src/main/java/util/PojoUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/TimeWindow.java" />
         <option value="$PROJECT_DIR$/src/test/java/TabuSearchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java" />
       </list>
     </option>
   </component>
@@ -292,8 +303,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,8 +387,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,69 +653,70 @@
       <workItem from="1623067507942" duration="10885000" />
       <workItem from="1623112526881" duration="5253000" />
       <workItem from="1623118970629" duration="2788000" />
+      <workItem from="1623123440790" duration="4231000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 52m 36s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 45m 56s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 52m 42s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 46m 02s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 52m 44s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 46m 08s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 52m 50s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 11s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 52m 59s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 18s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 09h 53m 04s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 21s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 11h 02m 07s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 27s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 11h 03m 21s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 34s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 11h 10m 20s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 38s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 11h 13m 44s.xml">
+    <history-entry file="TabuSearchTest_tabuSearchWithEpochTest - 2021.06.08 at 12h 47m 41s.xml">
       <configuration name="TabuSearchTest.tabuSearchWithEpochTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170818000" />
+    <option name="totallyTimeSpent" value="175049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21460177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21396896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86946905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4490022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28185746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24244061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30487806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.335177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -802,65 +814,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="206" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Solution.java</url>
-          <line>392</line>
-          <properties />
-          <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java</url>
-          <line>165</line>
+          <line>183</line>
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java</url>
-          <line>108</line>
+          <line>124</line>
           <properties />
-          <option name="timeStamp" value="216" />
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java</url>
-          <line>105</line>
+          <line>119</line>
           <properties />
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Solution.java</url>
-          <line>376</line>
-          <properties />
-          <option name="timeStamp" value="218" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algorithm/Solution.java</url>
-          <line>383</line>
-          <properties />
-          <option name="timeStamp" value="219" />
+          <option name="timeStamp" value="245" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="227" />
+      <option name="time" value="246" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/satellites.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -1198,35 +1173,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TabuSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="29">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#382#0" expanded="true" />
-            <element signature="e#453#467#0" expanded="true" />
-            <element signature="e#555#574#0" expanded="true" />
-            <element signature="e#1802#1813#0" expanded="true" />
-            <element signature="e#3342#3361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="378" column="40" lean-forward="true" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
+        <state relative-caret-position="444">
+          <caret line="398" column="45" lean-forward="false" selection-start-line="398" selection-start-column="45" selection-end-line="398" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#407#430#0" expanded="true" />
+            <element signature="e#643#666#0" expanded="true" />
+            <element signature="e#744#761#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#2397#2409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programmingSoftware/Java/Jdk/jdk1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1468" column="0" lean-forward="false" selection-start-line="1468" selection-start-column="0" selection-end-line="1468" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/TabuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="195" column="46" lean-forward="true" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#440#0" expanded="true" />
+            <element signature="e#1870#1881#0" expanded="true" />
+            <element signature="e#3578#3597#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -373,7 +373,6 @@ public class Solution {
             //使用禁忌表
             else{
 
-                System.out.println("使用禁忌表....");
                 Map<TimeWindow,Integer> tabuMap = tabuMaps.get(job);
 
                 Random r = new Random();
@@ -382,20 +381,29 @@ public class Solution {
                 int index = r.nextInt(size);
                 TimeWindow t = timeWindows.get(index);
                 for (int i = 0; i < 5 * size; ++i) {
-                    //如果该窗口被禁忌，则不分配该窗口
-                    if(tabuMap.get(t) == null){
 
-                        //更新timeWindow的startT，endT，job的start_random,end_random
-                        Solution.updateTimeWindowStateWithAllocatedJob(satellites, job, t);
-                        jobs_result.add(job);
+//                    System.out.println("tabuMap used....");
 
-                        //保存job和时间窗口的对应关系
-                        jobTimeWindowUsedMap.put(job,t);
-                        break;
+                    //遍历该job的整个tabuMap
+                    Set<TimeWindow> tws = tabuMap.keySet();
+                    for (TimeWindow temp : tws){
+
+                        //如果该窗口被禁忌，则不分配该窗口
+                        if(temp.getSat_id() == t.getSat_id() &&  temp.getT_id() == t.getT_id()){
+
+                        }else{
+                            //更新timeWindow的startT，endT，job的start_random,end_random
+                            Solution.updateTimeWindowStateWithAllocatedJob(satellites, job, t);
+                            jobs_result.add(job);
+
+                            //保存job和时间窗口的对应关系
+                            jobTimeWindowUsedMap.put(job,t);
+                            break;
+                        }
+
+                        index = r.nextInt(size);
+                        t = timeWindows.get(index);
                     }
-
-                    index = r.nextInt(size);
-                    t = timeWindows.get(index);
                 }
             }
         }
