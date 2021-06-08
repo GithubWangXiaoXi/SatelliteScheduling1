@@ -1,0 +1,642 @@
+[
+  {
+    "duration": 231,
+    "endT": "2021-05-26 00:08:38",
+    "job_Id": 1,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job1",
+    "priority": 1,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:01:15",
+    "used": false
+  },
+  {
+    "duration": 343,
+    "endT": "2021-05-26 00:29:01",
+    "job_Id": 2,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job2",
+    "priority": 3,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:18:07",
+    "used": false
+  },
+  {
+    "duration": 376,
+    "endT": "2021-05-26 00:25:00",
+    "job_Id": 3,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job3",
+    "priority": 1,
+    "resolution": 8,
+    "sensor": 2,
+    "startT": "2021-05-26 00:13:04",
+    "used": false
+  },
+  {
+    "duration": 372,
+    "endT": "2021-05-26 00:19:28",
+    "job_Id": 4,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job4",
+    "priority": 1,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:06:06",
+    "used": false
+  },
+  {
+    "duration": 274,
+    "endT": "2021-05-26 00:22:47",
+    "job_Id": 5,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job5",
+    "priority": 5,
+    "resolution": 8,
+    "sensor": 2,
+    "startT": "2021-05-26 00:14:39",
+    "used": false
+  },
+  {
+    "duration": 351,
+    "endT": "2021-05-26 00:24:26",
+    "job_Id": 6,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job6",
+    "priority": 4,
+    "resolution": 8,
+    "sensor": 4,
+    "startT": "2021-05-26 00:11:47",
+    "used": false
+  },
+  {
+    "duration": 364,
+    "endT": "2021-05-26 00:24:27",
+    "job_Id": 7,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job7",
+    "priority": 4,
+    "resolution": 18,
+    "sensor": 4,
+    "startT": "2021-05-26 00:10:09",
+    "used": false
+  },
+  {
+    "duration": 249,
+    "endT": "2021-05-26 00:20:26",
+    "job_Id": 8,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job8",
+    "priority": 4,
+    "resolution": 8,
+    "sensor": 4,
+    "startT": "2021-05-26 00:10:12",
+    "used": false
+  },
+  {
+    "duration": 164,
+    "endT": "2021-05-26 00:32:36",
+    "job_Id": 9,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job9",
+    "priority": 2,
+    "resolution": 13,
+    "sensor": 1,
+    "startT": "2021-05-26 00:27:56",
+    "used": false
+  },
+  {
+    "duration": 255,
+    "endT": "2021-05-26 00:09:59",
+    "job_Id": 10,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job10",
+    "priority": 5,
+    "resolution": 8,
+    "sensor": 4,
+    "startT": "2021-05-26 00:00:49",
+    "used": false
+  },
+  {
+    "duration": 304,
+    "endT": "2021-05-26 00:17:55",
+    "job_Id": 11,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job11",
+    "priority": 1,
+    "resolution": 18,
+    "sensor": 3,
+    "startT": "2021-05-26 00:05:27",
+    "used": false
+  },
+  {
+    "duration": 206,
+    "endT": "2021-05-26 00:16:49",
+    "job_Id": 12,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job12",
+    "priority": 5,
+    "resolution": 18,
+    "sensor": 3,
+    "startT": "2021-05-26 00:10:45",
+    "used": false
+  },
+  {
+    "duration": 259,
+    "endT": "2021-05-26 00:18:38",
+    "job_Id": 13,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job13",
+    "priority": 5,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:11:13",
+    "used": false
+  },
+  {
+    "duration": 284,
+    "endT": "2021-05-26 00:38:48",
+    "job_Id": 14,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job14",
+    "priority": 1,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:27:09",
+    "used": false
+  },
+  {
+    "duration": 184,
+    "endT": "2021-05-26 00:35:34",
+    "job_Id": 15,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job15",
+    "priority": 3,
+    "resolution": 8,
+    "sensor": 3,
+    "startT": "2021-05-26 00:28:33",
+    "used": false
+  },
+  {
+    "duration": 318,
+    "endT": "2021-05-26 00:35:05",
+    "job_Id": 16,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job16",
+    "priority": 5,
+    "resolution": 18,
+    "sensor": 2,
+    "startT": "2021-05-26 00:23:29",
+    "used": false
+  },
+  {
+    "duration": 389,
+    "endT": "2021-05-26 00:13:36",
+    "job_Id": 17,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job17",
+    "priority": 3,
+    "resolution": 8,
+    "sensor": 3,
+    "startT": "2021-05-26 00:03:14",
+    "used": false
+  },
+  {
+    "duration": 302,
+    "endT": "2021-05-26 00:39:06",
+    "job_Id": 18,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job18",
+    "priority": 5,
+    "resolution": 18,
+    "sensor": 2,
+    "startT": "2021-05-26 00:27:50",
+    "used": false
+  },
+  {
+    "duration": 227,
+    "endT": "2021-05-26 00:33:11",
+    "job_Id": 19,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job19",
+    "priority": 4,
+    "resolution": 8,
+    "sensor": 4,
+    "startT": "2021-05-26 00:24:54",
+    "used": false
+  },
+  {
+    "duration": 269,
+    "endT": "2021-05-26 00:09:57",
+    "job_Id": 20,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job20",
+    "priority": 5,
+    "resolution": 13,
+    "sensor": 4,
+    "startT": "2021-05-26 00:01:30",
+    "used": false
+  },
+  {
+    "duration": 375,
+    "endT": "2021-05-26 00:26:22",
+    "job_Id": 21,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job21",
+    "priority": 5,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:13:55",
+    "used": false
+  },
+  {
+    "duration": 321,
+    "endT": "2021-05-26 00:36:57",
+    "job_Id": 22,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job22",
+    "priority": 3,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:25:23",
+    "used": false
+  },
+  {
+    "duration": 274,
+    "endT": "2021-05-26 00:35:08",
+    "job_Id": 23,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job23",
+    "priority": 5,
+    "resolution": 18,
+    "sensor": 1,
+    "startT": "2021-05-26 00:26:29",
+    "used": false
+  },
+  {
+    "duration": 265,
+    "endT": "2021-05-26 00:27:05",
+    "job_Id": 24,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job24",
+    "priority": 3,
+    "resolution": 18,
+    "sensor": 3,
+    "startT": "2021-05-26 00:20:11",
+    "used": false
+  },
+  {
+    "duration": 212,
+    "endT": "2021-05-26 00:31:59",
+    "job_Id": 25,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job25",
+    "priority": 2,
+    "resolution": 13,
+    "sensor": 1,
+    "startT": "2021-05-26 00:24:47",
+    "used": false
+  },
+  {
+    "duration": 265,
+    "endT": "2021-05-26 00:34:52",
+    "job_Id": 26,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job26",
+    "priority": 4,
+    "resolution": 18,
+    "sensor": 2,
+    "startT": "2021-05-26 00:26:41",
+    "used": false
+  },
+  {
+    "duration": 246,
+    "endT": "2021-05-26 00:27:37",
+    "job_Id": 27,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job27",
+    "priority": 5,
+    "resolution": 13,
+    "sensor": 4,
+    "startT": "2021-05-26 00:18:20",
+    "used": false
+  },
+  {
+    "duration": 346,
+    "endT": "2021-05-26 00:31:34",
+    "job_Id": 28,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job28",
+    "priority": 2,
+    "resolution": 18,
+    "sensor": 3,
+    "startT": "2021-05-26 00:21:15",
+    "used": false
+  },
+  {
+    "duration": 201,
+    "endT": "2021-05-26 00:26:22",
+    "job_Id": 29,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job29",
+    "priority": 2,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:20:15",
+    "used": false
+  },
+  {
+    "duration": 186,
+    "endT": "2021-05-26 00:27:42",
+    "job_Id": 30,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job30",
+    "priority": 2,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:20:41",
+    "used": false
+  },
+  {
+    "duration": 339,
+    "endT": "2021-05-26 00:39:59",
+    "job_Id": 31,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job31",
+    "priority": 5,
+    "resolution": 13,
+    "sensor": 2,
+    "startT": "2021-05-26 00:29:17",
+    "used": false
+  },
+  {
+    "duration": 284,
+    "endT": "2021-05-26 00:35:04",
+    "job_Id": 32,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job32",
+    "priority": 3,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:27:11",
+    "used": false
+  },
+  {
+    "duration": 383,
+    "endT": "2021-05-26 00:20:57",
+    "job_Id": 33,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job33",
+    "priority": 5,
+    "resolution": 18,
+    "sensor": 2,
+    "startT": "2021-05-26 00:10:17",
+    "used": false
+  },
+  {
+    "duration": 150,
+    "endT": "2021-05-26 00:27:09",
+    "job_Id": 34,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job34",
+    "priority": 3,
+    "resolution": 13,
+    "sensor": 3,
+    "startT": "2021-05-26 00:22:57",
+    "used": false
+  },
+  {
+    "duration": 347,
+    "endT": "2021-05-26 00:20:59",
+    "job_Id": 35,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job35",
+    "priority": 4,
+    "resolution": 18,
+    "sensor": 2,
+    "startT": "2021-05-26 00:07:42",
+    "used": false
+  },
+  {
+    "duration": 236,
+    "endT": "2021-05-26 00:14:00",
+    "job_Id": 36,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job36",
+    "priority": 2,
+    "resolution": 8,
+    "sensor": 4,
+    "startT": "2021-05-26 00:07:51",
+    "used": false
+  },
+  {
+    "duration": 174,
+    "endT": "2021-05-26 00:19:21",
+    "job_Id": 37,
+    "location": [
+      "42.14",
+      "6.05_W",
+      "3.23_N"
+    ],
+    "name": "Job37",
+    "priority": 3,
+    "resolution": 8,
+    "sensor": 1,
+    "startT": "2021-05-26 00:12:42",
+    "used": false
+  },
+  {
+    "duration": 257,
+    "endT": "2021-05-26 00:25:55",
+    "job_Id": 38,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job38",
+    "priority": 4,
+    "resolution": 8,
+    "sensor": 2,
+    "startT": "2021-05-26 00:19:30",
+    "used": false
+  },
+  {
+    "duration": 271,
+    "endT": "2021-05-26 00:33:46",
+    "job_Id": 39,
+    "location": [
+      "50.67",
+      "57.06_W",
+      "54.65_N"
+    ],
+    "name": "Job39",
+    "priority": 4,
+    "resolution": 18,
+    "sensor": 1,
+    "startT": "2021-05-26 00:23:42",
+    "used": false
+  },
+  {
+    "duration": 210,
+    "endT": "2021-05-26 00:28:26",
+    "job_Id": 40,
+    "location": [
+      "67.67",
+      "68.20_W",
+      "173.59_S"
+    ],
+    "name": "Job40",
+    "priority": 4,
+    "resolution": 8,
+    "sensor": 2,
+    "startT": "2021-05-26 00:21:31",
+    "used": false
+  }
+]
